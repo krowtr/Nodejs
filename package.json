@@ -1,18 +1,17 @@
 {
-  "name": "fcc-learn-npm-package-json",
-  "author": "foobar",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
-  "main": "server.js",
+  "name": "nodejs",
+  "version": "1.0.0",
+  "author": "Kerim Durak",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "8.11.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://idontknow/todo.git"
+  "keywords": [],
+ 
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6"
   }
 }
